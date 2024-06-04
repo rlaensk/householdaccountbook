@@ -1,0 +1,152 @@
+
+
+.MainW{
+    width:100%;
+    height: 100%;
+
+    flex-direction: column;
+
+}
+.day{
+    width: 100%;
+    height: 30px;
+justify-content: center;
+align-items: center;
+}
+.day img{
+    width: 20px;
+    height: 15px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.day span{
+    font-size: 1.2rem;
+    margin: 0 10px;
+}
+.writeMenu{
+    align-self: start;
+    width: 300px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.writeMenu span{
+    display: inline-block;
+    width: 80px;
+    height: 100%;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 17px;
+}
+.borderBottom{
+    border-bottom: 1px solid red;
+}
+.spending{
+    width: 100%;
+    overflow: scroll;
+    justify-content: center;
+    margin-top: 20px;
+}
+.spending table{
+    width: 97%;
+    height: auto;
+    justify-content: flex-start;
+    text-align: center;
+
+}
+.spending table th,td{
+    height: 40px;
+    border: .2px solid #cecdcd;
+    font-size: .8rem;
+    position: relative;
+}
+
+td input{
+    width: 60%;
+    height: 100%;
+    border:none;
+    text-align: right;
+    padding-right: 10px;
+}
+td input:focus{
+    outline: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.tableChange input[type='date']{
+    width: 67%;
+
+}
+.saveBox{
+    width:1446px;
+    height: 100px;
+   position: absolute;
+   bottom: 0;
+   right:0;
+   border: .6px solid #cecdcd;
+   justify-content: end;
+}
+.saveBox div{
+    
+    height: 100%;
+    border: .6px solid #cecdcd;
+}
+
+.saveBox .btnBox{
+    width: 315px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.saveBox .cashTotal,.cardTotal {
+    width: 160px;
+
+}
+.saveBox .cashTotal span,.cardTotal span{
+    text-align: right;
+}
+.flexAll{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btnBox button{
+    border: none;
+    width: 90px;
+    height: 40px;
+    font-size: .6rem;
+    margin: 5px;
+}
+.saveBox .spandingTotal{
+   width: 813px;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0 40px;
+}
+.saveBox .spandingTotal .textBox{
+    border: none;
+}
+
+.saveBox .spandingTotal button{
+    width: 130px;
+    height: 40px;
+    border: none;
+    font-size: .8rem;
+}
+.spending .incomeDateTh{
+    width: 100px;
+}
+.saveBox .incomeSave{
+    width: 100%;
+    justify-content: flex-end;
+}
+.saveBox .incomCashTotal{
+    width: 350px;
+}
+.saveBox .incomBtnBox{
+    width: 510px;
+}

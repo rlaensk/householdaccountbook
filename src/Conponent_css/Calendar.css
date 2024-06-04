@@ -1,0 +1,18 @@
+.App .react-calendar{
+    width: 1400px;
+    height: 542px;
+    border: 0;
+    margin:30px 0 0 20px;
+}
+.App .react-calendar .react-calendar__tile{
+    height: 90px;
+
+}
+
+.App .react-calendar .react-calendar__month-view div button abbr{
+width: 100%;
+    display: inline-block;
+    height: 100%;
+    text-align: left;
+    padding: 15px 16px 0;
+}

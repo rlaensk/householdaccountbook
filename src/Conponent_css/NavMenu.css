@@ -1,0 +1,140 @@
+nav{
+    width: 300px;
+    height: 100vh;
+    background-color:#8C8C8C;
+}
+nav button{
+    color: #eee;
+    background-color: transparent;
+    border: none;
+}
+.NavBox{
+    width: 300px;
+}
+.NavBox div{
+    width: 100%;
+    height: 80px;
+    border:0.2px solid rgba(73, 73, 73, 0.146);
+    align-items: center;
+}
+.NavBox div button{
+    padding: 0 30px;
+}
+.NavBox .flexBox{
+    width: 100px;
+    height: 45px;
+    background-color: #5f5f5f;
+    text-align: center;
+    font-weight: bold;
+    color: #eee;
+    padding: 3px;
+    font-size: .8rem;
+    border:none
+}
+.NavBox .thisMonthBox{
+    width: 100%;
+    height: 285px;
+    flex-direction: column;
+    align-items: center;
+}
+.NavBox .thisMonthBox .calendarBox{
+    height: 85px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.NavBox .arrow{
+    border: none;
+    background-color: transparent;
+    padding: 0 30px;
+    color: #fff;
+}
+.NavBox .arrow img{
+    width: 14px;
+    height: 9px;
+    vertical-align: middle;
+    margin-bottom: 4px;
+    margin-right: 5px;
+}
+.NavBox .thisMonthBox .calendar{
+    width: 70%;
+    height: 20px;
+    background-color: #eee ;
+    margin-left: 40px;
+}
+.NavBox .thisMonth{
+    width: 100%;
+    height: 150px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: none;
+   
+}
+.NavBox .thisMonth >div{
+    width: 80%;
+    font-size: .7rem;
+    background-color: #AEAEAE;
+    justify-items: center;
+    align-items: center;
+    margin-top: 10px;
+    padding: 0 10px;
+}
+.NavBox .thisMonth .Month1{
+    height: 50px;
+    justify-content: space-between;
+}
+.NavBox .thisMonth .Month1 .Income-expenditure{
+    font-size: .6rem;
+}
+.NavBox .fontMoney{
+    color: #eee;
+    font-size: .7rem;
+}
+.NavBox .thisMonth .Month2{
+    
+    height:80px;
+    flex-direction: column;
+   align-items: flex-start;
+   justify-content: space-evenly;
+}
+.NavBox .thisMonth .Month2 p{
+    width: 100%;
+    font-size: .7rem;
+    width: 100%;
+}
+.NavBox .thisMonth .Month2 p span{
+    font-size: .6rem;
+}
+.NavBox .thisMonth .Month2 p:first-child{
+    color:rgb(38, 38, 237);
+    justify-content: space-between;
+}
+.NavBox .thisMonth .Month2 p:last-child{
+    color:rgb(108, 255, 4);
+    justify-content: space-between;
+}
+
+.NavBox .totalBox{
+    height: 150px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.NavBox .totalBox a{
+    width: 100%;
+    height: 25px;
+
+}
+.NavBox .totalBox p{
+    width: 80%;
+    height:65px;
+    background-color:#AEAEAE;
+    margin-left: 20px;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+}
+.NavBox .totalBox p span{
+    font-size: .6rem;
+}
